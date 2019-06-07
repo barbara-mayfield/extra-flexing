@@ -46,3 +46,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	margin: 0px 168px 0px 185px;
+}
+
+.gradient-head {
+	background-image: linear-gradient(to right, #4481AE, #CB5B8B);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+	padding: 20px 20px 30px 60px;
+}
+
+.gradient-head h1 {
+	font-size: 80px;
+	padding: 20px 40px;
+}
+
+.gradient-head p {
+	font-size: 28px;
+	padding: 10px 20px 180px 20px;
+}
+
+img {
+	display: flex;
+	flex-flow: row wrap;
+	width: 50%;
+	height: 50%;
+}
